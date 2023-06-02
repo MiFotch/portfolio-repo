@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Зовнішній файл за стилями -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <!-- Шапка сторінки -->
+    <header>
+      <div class="container header">
+        <nav>
+          <!-- Логотип -->
+          <a class="logo" href="./">Web<span>Studio</span></a>
+          <!--Навігація -->
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Контакти -->
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="">info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <hr />
+    <!-- Кнопки -->
+    <main>
+      <div>
+        <ul class="buttons">
+          <li class="button"><button class="main-button-blue">Усі</button></li>
+          <li class="button"><button class="main-button">Веб-сайти</button></li>
+          <li class="button"><button class="main-button">Додатки</button></li>
+          <li class="button"><button class="main-button">Дизайн</button></li>
+          <li class="button"><button class="main-button">Маркетинг</button></li>
+        </ul>
+      </div>
+    <!-- Фотки -->
+      <div>
+        <ul class="main">
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/e945/0746/ce3ece7da5d4fa1e76837a53a90fe6e4?Expires=1685923200&Signature=K~OIBMlSmjbC1ZJArhCOD~~00yLEGMd19HAlMz7217DLhBGNT4-U6sDSJtCY0NzzuaYNKw00ezInzc~9w~uvji4YAxpAGadShNXhRJbob4D9eOOsEjP0cEfSc6wEnMgsU2qsfjLIKEnMjVsOVnBryqmxCNDS6I4meni79Qqy4Oz5stb1dPzNLqjXr1OxxYQpnC3w8o~X~CADMzfrxT-DPr~T6i6Jer-vkvc2EHFc2fUu21C8m-uBsrMCOjJarWDVWcRQpWfLOGianp0z2rmVgUeZPIRvjWNiayTXkyN2BkuEVEcf4Hief~FrbmhiEoBPyrTwOHOV~APQmgnClPWvtw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="computer"
+              class="main-img"
+            />
+            <h4 class="photo-name">Технокряк</h4>
+            <p class="photo-p">Веб-сайт</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/0e70/4107/2af7c242b4ca1f507cebceb1a12a0d5e?Expires=1685923200&Signature=lwSSmHY5VlZAhnABsFinGMaI144-FBvtNyfFG2VDC3XPFvSbDM~jcUFyaMHSMeAXBNYLNl9YdfRaWBW6KS285YZmt5hNyA4O4DZYGpqLlh7ap2LjS858u5u3mUBUDctGYrITspyBu5H0kEsJns94vX~AhWV~w3MrUiCs4weh8tmC~qI7IAqpkML4rMfsTsHfW0oD7xoVUhsBJz2~6nRa~L4TFxF2ZnSs~u1IYYJl91h5UcCrGqibbI4amX7AxRSpsPxVe4g1YS39bYBUl6~KEKTB~mgIJS~BAAcRkbhwUXBF38XcG9imUDdZtGsj0wDY-P883qj1mex-izOw32~tKQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="basketball"
+              class="main-img"
+            />
+            <h4 class="photo-name">Постер New Orlean vs Golden Star</h4>
+            <p class="photo-p">Дизайн</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/cb60/0078/1a433c208105e34dc9868a3bff6ab127?Expires=1685923200&Signature=gCr3TokO3bkdDVXm1fOTwoUG3up3Ao9s6y93z2EbZq0tupKjUVyRV0eto0jJjwyAoeHnKx5ZNCQ4ITJBNJz8tRIfn7i42Gc6nR6aF29yM0ivNI0UkPfGJVJZPCCgc0wgO8UVGphc9YDcC0RO-bqbTvU~kWmoLjSnjZ4Ug--IaQaJjUgPJ6CV0c18r4XTde75Zd3NTKHht1mm6kMrn4raGulJyKus1DoAClwiQuCWMQ~Ujvh1NE82bXZI7pmnjhZXCITWskwayzex4FBJyzyqr2ccOWFJyn8rmI4~iGxVZwdZTsjlTdZYrcZeDTyC0izuEI76uYqf4oqFLbm76aNXHw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="fish"
+              class="main-img"
+            />
+            <h4 class="photo-name">Ресторан Seafood</h4>
+            <p class="photo-p">Додаток</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3429/ec70/ba4be2b1f0cfb199e4af12cdfc7deb53?Expires=1685923200&Signature=anoi-wZnoDHfVTeqFyEWsCbmeI1KiMT9IFLdSLvef-imRScvkutCqTgifmMO9jZhD5EOgQig3rno5Gtk96sPswfZSs~ws0FUVXsPiQhihCgt3SA27v~olIk~37eRcr924Jwa4dp2kdmAje-nFzOWw3mgMvQcpJ1Yin5cZVfsNM112A8GgvbasQ7B~F8a5MbBE7t5gBlQAHp1t9itnJZqbLz6olpIt7m6ZEUQOm5Zh7i-JUpphhBsqgWZtebgM6c~tzT5ov4wvYEKA6OLwcWhWDcJqKk-Ujq4aFnCyNzlx9LXKBDU6r1bidwVu1FCmUmmgUH0lT8lW6pMoK0tYc8qDQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="headphones"
+              class="main-img"
+            />
+            <h4 class="photo-name">Проєкт Prime</h4>
+            <p class="photo-p">Маркетинг</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/de12/9230/096c3e96fbdfa1efd6ca17564f4b60ac?Expires=1685923200&Signature=oshUYI9rMZBF2BSBDFswWlqJBPXQuhZ~TgBfNboLJJrd~UIB2c-0m4u~9uanUf9sim4ryfprm8txqowNjBBe03aCmwqd1N1c21jaQs6LRoZoQWa1MjM9Acqru4K44SKpW1JSRpaWweTUX83L19MJDeCQkzzfaZul0xvnZDxiL6dY9IzTGHOp4fCIeL-SkiDlCZeSq~0xaqxY0p8EePsEiSkYRLk0BTs36s-LPAHo8yOkr5J6SEuFO9RQf3qE3XcUNSGv-Luu7BaxV6ZslgZnbIS1IPfvBb-suw8hkLVNajmft~BFU4ePFXryu6tU~AjwQn7bfgzKAOIni7AafL2E8g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="box"
+              class="main-img"
+            />
+            <h4 class="photo-name">Проєкт Boxes</h4>
+            <p class="photo-p">Додаток</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/d5cc/f1b7/35cc11f87c4be2640549c8b71a221417?Expires=1685923200&Signature=l0r5kQGmw-9RXdQBWtdmQWrjrcQaa7d4Eo7dxRJrKdc~ZsMDdqJ6TqHwAbs~cI1DO5uNarX5dSk8JlnNiADRUSXsM3oOn7wP8umAPx-lA5oNHnQ8Cgz~F3m0Zzp5W61b1MzdHfM8ny7qK402WpIF23AbWItn9KxXCNpC8TOYblWXWb5TyPJXq7RlnI8YdramjNbqMWvrGLlfcqZ-7M6xqbEHuLYipjhrO1liNLbE4rqT8YdYTOBHKd6qFCxvYkQPc0Izrhu9rlKBljZSSo~nCo1m00o8Q520~oqEHYGEAbgkpe7NjLhlsipvoaBrY1i~IoJZ4ly4kld7vZgxXfDG2Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="monitor"
+              class="main-img"
+            />
+            <h4 class="photo-name">Inspiration has no Borders</h4>
+            <p class="photo-p">Веб-сайт</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/dccd/642b/9883873751631631df6d5595b83d684c?Expires=1685923200&Signature=CcekN8RIYRa-0A4qSGUIihVoTWUIzbPxxgeL6ePd1ITdLCoXPRRdZXatG3LPP5dERfLpDe4nBqZOvfKohM89PXDK2h58QU3U5tBBaRJFk8DjOxGINpx6X5NJzkq82d7wWB88-H7oqJ407RuBu4hsTFtvj-7~BGnibt9Y5133WfT57zZwZlWFFC7Z31WCvpcdLz9gJfKVgEAQL~RqzbtVeBYOrY2JzQyuNWv10bXr1zmZE8UAH26ceSUs5EzM4JMQLK5H4R-PSrecxeGgPKu0tvoapDFB3227Uh1WEgrVMWPeuInjaXpO9FRq52OAZAyzDclsp-3~Gr6NY7SU2i6uhw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="book"
+              class="main-img"
+            />
+            <h4 class="photo-name">Видання Limited Edition</h4>
+            <p class="photo-p">Дизайн</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/d64d/714e/22b3731453c05728d01567341b63797c?Expires=1685923200&Signature=ZL3~3U21dfWgcSbz3cUshNY7~-tDKev-cwkMN6jGLgesB3CyOx4D-pl~tzDCPQdtuUWMZWTYsuS7Z~6ymYECn9o-lcu2o6WtQ6ts26FRrO23xSWX~qJYWdM8GWf6AKvfeP0NA5-7Wf01ZYUvs35hGWqwMOb2zYk~oHkjFTG0hNssbZxrMSyZYUzG-1wJFV6bb1etoGLzEJx5Un~Y5-jKYCiR5SZo3~Qca54jMyMr~LUnO2oxRIEvh6yTYDLZ38wsXONjSwtL7eqXHDX23De-wL7HTkKn46zSlBKrRTaBMS9tStuZHsIfVXCnr7ozysekH6tozrpGHMuTh1TMKbe1Fw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="sale"
+              class="main-img"
+            />
+            <h4 class="photo-name">Проєкт LAB</h4>
+            <p class="photo-p">Маркетинг</p>
+          </li>
+          <li class="photos">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/2bd0/de8e/dc8bd39cf3d9ed5df9520ffb8173dc62?Expires=1685923200&Signature=Txmx9nhfPm7gcML4oxz3Umw5mdsdOWMqtvF6yfHOJQmI96UxlIIj2N8cNrzdYROfRNSeHaEBjlCxBnWKtsG2o11ekHBVXM2PhHrzzzHb6f0rfh-bvFhB2CTkMe5VrvWIxM~pTpGgRtxwcQPqGm~a-UrwYYTDklsiBgq91t7d9bgdpaK0wjEZw2twKYS6ssEseeXzqRZg3QrYn2wg0xOsq2Y7EiFU8atRlRbBLgCPrVQdBuqYMWMdgbahlOdgMmOJqNiJYwwe-HuZ6Fb30-5mCnAZ2awP6p0rbrn~jjyu0cSjnSyv6Jtv7wcaWsjIv9M8bQtgAdub5qN6NGJJz0z-uQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="laptop"
+              class="main-img"
+            />
+            <h4 class="photo-name">Growing Business</h4>
+            <p class="photo-p">Додаток</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!-- Футер -->
+    <footer class="section footer">
+      <div class="container">
+        <a class="logo" href="./">Web<span>Studio</span></a>
+        <address>м. Київ, пр-т Лесі Українки, 26</address>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="">info@devstudio.com</a>
+          </li>
+          <br>
+          <li class="contacts-item">
+            <a class="contacts-link" href="">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
+
+  </body>
+</html>

@@ -1,0 +1,228 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --logo-color: #000;
+  --accent-color: #2196f3;
+  --background-color: #fff;
+  --hero-background-color: #2f303a;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+hr {
+  color: rgba(255, 255, 255, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* загальні стилі */
+
+.section {
+  /* outline: solid 3px green; */
+
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  /* outline: solid 3px red; */
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+
+.container.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: var(--accent-color);
+}
+
+.logo > span {
+  color: var(--logo-color);
+}
+
+.nav-list {
+  display: flex;
+
+  margin-left: 93px;
+}
+
+.nav-item:not(:first-child),
+.contacts-item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.contacts-list {
+  display: flex;
+
+  margin-left: auto;
+}
+
+.nav-link,
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--primary-text-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts-link {
+  color: var(--secondary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/*Головна-частина-кнопки*/
+.buttons {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.main-button-blue {
+  background-color: rgba(33, 150, 243, 1);
+  border: none;
+  height: 38px;
+  width: 73px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.main-button {
+  background-color: rgba(245, 244, 250, 1);
+  border: none;
+  height: 38px;
+  width: 73px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  width: 130px;
+}
+.button {
+  padding-left: 3px;
+}
+/*головна-частина-фотки*/
+.main {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 94px;
+}
+.photos {
+  border: 1px solid rgba(238, 238, 238, 1);
+  box-shadow: 0px 0px 0px 0.2px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+
+.main-img {
+  height: 294px;
+  width: 370px;
+  box-shadow: rgba(0, 0, 0, 0.16);
+}
+.photo-name {
+  width: 322px;
+  border-radius: nullpx;
+  padding-left: 24px;
+  padding-bottom: 4px;
+}
+.photo-p {
+  width: 300px;
+  border-radius: nullpx;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  color: rgba(117, 117, 117, 1);
+}
+
+/* футер */
+.footer {
+  background-color: var(--hero-background-color);
+}
+
+.footer .logo > span {
+  color: var(--background-color);
+}
+
+address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: var(--background-color);
+}
+
+.footer .contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
